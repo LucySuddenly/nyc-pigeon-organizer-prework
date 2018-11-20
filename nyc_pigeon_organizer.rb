@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         pigeon_list[name] ||= {}
         pigeon_list[name][attribute] ||= []
         pigeon_list[name][attribute] << sub_info.to_s
-        binding.pry
+        #binding.pry
       end
     end 
   end
